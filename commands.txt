@@ -1,0 +1,103 @@
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion
+$ git init
+Initialized empty Git repository in E:/2023_project/Recursion/.git/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git remote add origin https://github.com/akshetpatial/Recursion.git
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git remote -v
+origin  https://github.com/akshetpatial/Recursion.git (fetch)
+origin  https://github.com/akshetpatial/Recursion.git (push)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        RECURSION_Notes.pdf
+        Recursion.iml
+        Recursion_Internal.pdf
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .idea/ Recursion.iml src/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created the Recursion Directory and Initialize the Git"
+[master (root-commit) 968d8e7] Created the Recursion Directory and Initialize the Git
+ 6 files changed, 42 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 Recursion.iml
+ create mode 100644 src/com/akshet/Recursion.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        RECURSION_Notes.pdf
+        Recursion_Internal.pdf
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git RECURSION_Notes.pdf
+git: 'RECURSION_Notes.pdf' is not a git command. See 'git --help'.
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add RECURSION_Notes.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Added the Recursion_Notes.pdf file"
+[master 09e19cb] Added the Recursion_Notes.pdf file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 RECURSION_Notes.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Recursion_Internal.pdf
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Added the Recursion_Internal.pdf file"
+[master 014f3cc] Added the Recursion_Internal.pdf file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Recursion_Internal.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ touch commands.txt
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        commands.txt
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master) track)
+$ git add .
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created the commands.txt file"
+[master ff4483a] Created the commands.txt file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 commands.txt
+
+
+
