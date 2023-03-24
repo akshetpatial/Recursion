@@ -99,5 +99,106 @@ $ git commit -m "Created the commands.txt file"
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 commands.txt
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git fetch origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 597 bytes | 5.00 KiB/s, done.
+From https://github.com/akshetpatial/Recursion
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git merge origin/main
+fatal: refusing to merge unrelated histories
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git merge origin/master
+Already up to date.
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git merge origin master
+merge: origin - not something we can merge
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git merge origin/master
+Already up to date.
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git pull origin main
+From https://github.com/akshetpatial/Recursion
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Everything up-to-date
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/com/akshet/Recursion.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -4 --all --graph
+* commit cc231681ef05e1a383d1e3d926f3f62543761352 (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 25 00:42:47 2023 +0530
+|
+|     Added the commands Related to Git Initialization
+|
+* commit ff4483a95cbdf2eb39766e74982b14adaeb3d450
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 25 00:41:27 2023 +0530
+|
+|     Created the commands.txt file
+|
+* commit 014f3cc6ed7d6dc8325a12b272916717373e6dfd
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 25 00:40:50 2023 +0530
+|
+|     Added the Recursion_Internal.pdf file
+|
+* commit 09e19cb93e2fe5f0fa81a75f890a5257241aa529
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Mar 25 00:40:28 2023 +0530
+|
+|     Added the Recursion_Notes.pdf file
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git fetch origin master
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 662 bytes | 3.00 KiB/s, done.
+From https://github.com/akshetpatial/Recursion
+ * branch            master     -> FETCH_HEAD
+   cc23168..bd9b933  master     -> origin/master
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git pull origin/master
+fatal: 'origin/master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git merge origin/master
+Updating cc23168..bd9b933
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
 
 
