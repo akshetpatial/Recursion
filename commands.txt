@@ -201,4 +201,184 @@ Fast-forward
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   RECURSION_Notes.pdf
+        modified:   src/com/akshet/Recursion.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Recursion_Notes_1.pdf
+        out/
+        src/com/akshet/BinarySearch.java
+        src/com/akshet/FibonacciNumbers.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add Recursion_Notes_1.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Added the Recursion_Notes_1.pdf file"
+[master dcbb5e0] Added the Recursion_Notes_1.pdf file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Recursion_Notes_1.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add RECURSION_Notes.pdf
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "No changes"
+[master 691ebe9] No changes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/com/akshet/Recursion.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/
+        src/com/akshet/BinarySearch.java
+        src/com/akshet/FibonacciNumbers.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add src/com/akshet/Recursion.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Added the simple use case of calling functions as a tail recursion"
+[master c11180b] Added the simple use case of calling functions as a tail recursion
+ 1 file changed, 44 insertions(+)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/
+        src/com/akshet/BinarySearch.java
+        src/com/akshet/FibonacciNumbers.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add src/com/akshet/BinarySearch.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/BinarySearch.class
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created the BinarySearch.java file"
+[master 2446a32] Created the BinarySearch.java file
+ 2 files changed, 9 insertions(+)
+ create mode 100644 out/production/Recursion/com/akshet/BinarySearch.class
+ create mode 100644 src/com/akshet/BinarySearch.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/FibonacciNumbers.class
+        out/production/Recursion/com/akshet/Recursion.class
+        src/com/akshet/FibonacciNumbers.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/Recursion.class
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Added the simple use case of calling functions as a tail recursion"
+[master 730e8e5] Added the simple use case of calling functions as a tail recursion
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 out/production/Recursion/com/akshet/Recursion.class
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/FibonacciNumbers.class
+        src/com/akshet/FibonacciNumbers.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/FibonacciNumbers.class src/com/akshet/FibonacciNumbers.java
+out/ src/
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/FibonacciNumbers.class src/com/akshet/FibonacciNumbers.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   out/production/Recursion/com/akshet/FibonacciNumbers.class
+        new file:   src/com/akshet/FibonacciNumbers.java
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created the FibonacciNumbers.java"
+[master 5a34f90] Created the FibonacciNumbers.java
+ 2 files changed, 70 insertions(+)
+ create mode 100644 out/production/Recursion/com/akshet/FibonacciNumbers.class
+ create mode 100644 src/com/akshet/FibonacciNumbers.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -4 --all --graph
+* commit 5a34f90803e15182a023ff9d36beb489143d6bef (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Mar 26 02:08:07 2023 +0530
+|
+|     Created the FibonacciNumbers.java
+|
+* commit 730e8e5613de4c21885e25fba25d3e0158642e11
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Mar 26 02:07:16 2023 +0530
+|
+|     Added the simple use case of calling functions as a tail recursion
+|
+* commit 2446a327b2190e8e651b5f96486e5eb6609f671f
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Mar 26 02:05:51 2023 +0530
+|
+|     Created the BinarySearch.java file
+|
+* commit c11180b5cb53791b727c93cf41c2d7ab18598519
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Mar 26 02:04:18 2023 +0530
+|
+|     Added the simple use case of calling functions as a tail recursion
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 50, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (44/44), 1.83 MiB | 2.08 MiB/s, done.
+Total 44 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), completed with 2 local objects.
+To https://github.com/akshetpatial/Recursion.git
+   0daaa64..5a34f90  master -> master
+
+
 
