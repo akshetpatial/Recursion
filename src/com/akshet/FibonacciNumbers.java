@@ -5,6 +5,7 @@ import java.util.Scanner;
 // Using this approach the time complexity is very high to be precise its exponential similar to 2^N as from the Recurrence Relation
 // the numbers are getting smaller and smaller by very tiny bit hence the Recursion tree will be very complex
 // That is why if we try to find the Fibonacci Series of some bigger position it will stuck even for 50 it will Stuck.
+// To counter this we will be using Memorization technique used in dynamic Programming
 public class FibonacciNumbers {
 
     // This is one is a bit faster as we are only calling the function one time but still it will break if we try to search the
