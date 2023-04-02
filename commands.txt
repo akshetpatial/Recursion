@@ -380,5 +380,256 @@ remote: Resolving deltas: 100% (9/9), completed with 2 local objects.
 To https://github.com/akshetpatial/Recursion.git
    0daaa64..5a34f90  master -> master
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Recursion/com/akshet/FibonacciNumbers.class
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/ReverseNumber.class
+        out/production/Recursion/com/akshet/SumofDigits.class
+        out/production/Recursion/com/akshet/factorial.class
+        src/com/akshet/ReverseNumber.java
+        src/com/akshet/SumofDigits.java
+        src/com/akshet/factorial.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/
+FibonacciNumbers.class  SumofDigits.class
+ReverseNumber.class     factorial.class
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/
+FibonacciNumbers.class  SumofDigits.class
+ReverseNumber.class     factorial.class
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/FibonacciNumbers.class
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   out/production/Recursion/com/akshet/FibonacciNumbers.class
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/ReverseNumber.class
+        out/production/Recursion/com/akshet/SumofDigits.class
+        out/production/Recursion/com/akshet/factorial.class
+        src/com/akshet/ReverseNumber.java
+        src/com/akshet/SumofDigits.java
+        src/com/akshet/factorial.java
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "minor change"
+[master f8ccb2e] minor change
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/ReverseNumber.class src/com/akshet/
+ReverseNumber.java  SumofDigits.java    factorial.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/ReverseNumber.class src/com/akshet/ReverseNumber.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Using Two approach Basic and Recursive one in ReverseNumber.java file"
+[master 49e5d81] Using Two approach Basic and Recursive one in ReverseNumber.java file
+ 2 files changed, 42 insertions(+)
+ create mode 100644 out/production/Recursion/com/akshet/ReverseNumber.class
+ create mode 100644 src/com/akshet/ReverseNumber.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/SumofDigits.class
+        out/production/Recursion/com/akshet/factorial.class
+        src/com/akshet/SumofDigits.java
+        src/com/akshet/factorial.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/SumofDigits.class src/com/akshet/SumofDigits.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Using two approach Basic and Recursive one in SumofDigits.java"
+[master c7e533e] Using two approach Basic and Recursive one in SumofDigits.java
+ 2 files changed, 41 insertions(+)
+ create mode 100644 out/production/Recursion/com/akshet/SumofDigits.class
+ create mode 100644 src/com/akshet/SumofDigits.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/factorial.class
+        src/com/akshet/factorial.java
+
+* commit cf5c1617b11eb2a33d306961ee540aebd720fdfa (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:04:44 2023 +0530
+|
+|     Using two approach Basic and Recursive one in Factorial.java file
+|
+* commit c7e533e65649440c55d2f8bef845e7e5c34426d1
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:03:43 2023 +0530
+|
+|     Using two approach Basic and Recursive one in SumofDigits.java
+|
+* commit 49e5d81fc75f3041d76f24907cf98304f62ba4c2
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:02:37 2023 +0530
+|
+|     Using Two approach Basic and Recursive one in ReverseNumber.java file
+|
+* commit f8ccb2e4b875b329a0219ecd1b207aa3630dfa4c
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:00:54 2023 +0530
+|
+|     minor change
+|
+* commit 1a9207d5efffcfdf1ba37aa3b1d46bff28e78f4f (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Mar 27 00:59:54 2023 +0530
+|
+|     Added some comments related to the drawback and counter of the Recurison Approach
+~
+~
+~
+~
+~
+~
+~ ls ^C
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)eNumber.java
+$ ^C
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)/com/akshet/
+$ ^C
+a file"ommit -m "Using Two approach Basic and Recursive one in ReverseNumber.java
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ ^C  commit -m "Using two approach Basic and Recursive one in SumofDigits.java"      status
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)ial.java fil
+$ ^C
+~
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ ^C
+~
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ ^C
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ ^C
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ ^C
+
+Lenovostatus
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -5 --all --graph
+* commit cf5c1617b11eb2a33d306961ee540aebd720fdfa (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:04:44 2023 +0530
+|
+|     Using two approach Basic and Recursive one in Factorial.java file
+|
+* commit c7e533e65649440c55d2f8bef845e7e5c34426d1
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:03:43 2023 +0530
+|
+|     Using two approach Basic and Recursive one in SumofDigits.java
+|
+* commit 49e5d81fc75f3041d76f24907cf98304f62ba4c2
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:02:37 2023 +0530
+|
+|     Using Two approach Basic and Recursive one in ReverseNumber.java file
+|
+* commit f8ccb2e4b875b329a0219ecd1b207aa3630dfa4c
+| ^C
+
+torial.java t/production/Recursion/com/akshet/factorial.class src/com/akshet/fact
+
+umofDigits.java oduction/Recursion/com/akshet/SumofDigits.class src/com/akshet/Su     status
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)/com/akshet/
+$ ^C
+a file"ommit -m "Using Two approach Basic and Recursive one in ReverseNumber.java
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ ^C  commit -m "Using two approach Basic and Recursive one in SumofDigits.java"      status
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)ial.java fil
+$ ^C
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -5 --all --graph
+* commit cf5c1617b11eb2a33d306961ee540aebd720fdfa (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:04:44 2023 +0530
+|
+|     Using two approach Basic and Recursive one in Factorial.java file
+|
+* commit c7e533e65649440c55d2f8bef845e7e5c34426d1
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:03:43 2023 +0530
+|
+|     Using two approach Basic and Recursive one in SumofDigits.java
+|
+* commit 49e5d81fc75f3041d76f24907cf98304f62ba4c2
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:02:37 2023 +0530
+|
+|     Using Two approach Basic and Recursive one in ReverseNumber.java file
+|
+* commit f8ccb2e4b875b329a0219ecd1b207aa3630dfa4c
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:00:54 2023 +0530
+|
+|     minor change
+|
+* commit 1a9207d5efffcfdf1ba37aa3b1d46bff28e78f4f (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Mar 27 00:59:54 2023 +0530
+|
+|     Added some comments related to the drawback and counter of the Recurison Approach
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 54, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (44/44), 6.68 KiB | 190.00 KiB/s, done.
+Total 44 (delta 10), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (10/10), completed with 2 local objects.
+To https://github.com/akshetpatial/Recursion.git
+   1a9207d..cf5c161  master -> master
+
+
 
 
