@@ -721,4 +721,132 @@ $ git log -4 --all --graph
 |
 |     Using two approach Basic and Recursive one in Factorial.java file
 
+c0447174255b3964590a3f3d748e2659255c9d66
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:18:02 2023 +0530
+|
+|     Created the Palindrome.java file and used two ways one Basic and other Recursive
+|
+* commit 48168cda33007c3b6248445c410e16382b684b73
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:16:36 2023 +0530
+|
+|     Added the comment to find the number of digits by log base 10 + 1
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -4 --all --graph
+* commit 315657d7f7b828ae1ad63f97200ee0efd5b5fb59 (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:28:40 2023 +0530
+|
+|     Added a way to use helper funcition if number of paramters to be passed is limited
+|
+* commit caf7b1a23cd66c3b89fcaa31862d9a31c45d7a59
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:19:36 2023 +0530
+|
+|     Commands related to git Palindrome.java file
+|
+* commit c0447174255b3964590a3f3d748e2659255c9d66
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:18:02 2023 +0530
+|
+|     Created the Palindrome.java file and used two ways one Basic and other Recursive
+|
+* commit 48168cda33007c3b6248445c410e16382b684b73
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:16:36 2023 +0530
+|
+|     Added the comment to find the number of digits by log base 10 + 1
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/LinearSearch.class
+        out/production/Recursion/com/akshet/SortedArray.class
+        src/com/akshet/LinearSearch.java
+        src/com/akshet/SortedArray.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/LinearSearch.class src/com/akshet/LinearSearch.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created LinearSearch.java file"
+[master 38af51e] Created LinearSearch.java file
+ 2 files changed, 80 insertions(+)
+ create mode 100644 out/production/Recursion/com/akshet/LinearSearch.class
+ create mode 100644 src/com/akshet/LinearSearch.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/SortedArray.class
+        src/com/akshet/SortedArray.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add out/production/Recursion/com/akshet/SortedArray.class src/com/akshet/SortedArray.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created SortedArray.java file"
+[master 648f76a] Created SortedArray.java file
+ 2 files changed, 38 insertions(+)
+ create mode 100644 out/production/Recursion/com/akshet/SortedArray.class
+ create mode 100644 src/com/akshet/SortedArray.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -4 --all --graph
+* commit 648f76a39acf9237640518bee046a11e305a6417 (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Apr 3 02:17:00 2023 +0530
+|
+|     Created SortedArray.java file
+|
+* commit 38af51ef1c1e3e94762ea30f7c2e98f939696481
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Apr 3 02:16:30 2023 +0530
+|
+|     Created LinearSearch.java file
+|
+* commit 315657d7f7b828ae1ad63f97200ee0efd5b5fb59 (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:28:40 2023 +0530
+|
+|     Added a way to use helper funcition if number of paramters to be passed is limited
+|
+* commit caf7b1a23cd66c3b89fcaa31862d9a31c45d7a59
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:19:36 2023 +0530
+|
+|     Commands related to git Palindrome.java file
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 33, done.
+Counting objects: 100% (33/33), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (24/24), 5.14 KiB | 404.00 KiB/s, done.
+Total 24 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 3 local objects.
+To https://github.com/akshetpatial/Recursion.git
+   315657d..648f76a  master -> master
+
 
