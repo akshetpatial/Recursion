@@ -631,5 +631,94 @@ To https://github.com/akshetpatial/Recursion.git
    1a9207d..cf5c161  master -> master
 
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   out/production/Recursion/com/akshet/SumofDigits.class
+        modified:   src/com/akshet/SumofDigits.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/Palindrome.class
+        src/com/akshet/Palindrome.java
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Added the comment to find the number of digits by log base 10 + 1"
+[master 48168cd] Added the comment to find the number of digits by log base 10 + 1
+ 2 files changed, 2 insertions(+)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commmit -m "Created the Palindrome.java file and used two ways one Basic and other Recursive"
+git: 'commmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git cmmmit -m "Created the Palindrome.java file and used two ways one Basic and other Recursive"
+git: 'cmmmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created the Palindrome.java file and used two ways one Basic and other Recursive"
+[master c044717] Created the Palindrome.java file and used two ways one Basic and other Recursive
+ 2 files changed, 51 insertions(+)
+ create mode 100644 out/production/Recursion/com/akshet/Palindrome.class
+ create mode 100644 src/com/akshet/Palindrome.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (24/24), 3.31 KiB | 307.00 KiB/s, done.
+Total 24 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), completed with 5 local objects.
+To https://github.com/akshetpatial/Recursion.git
+   9c1c2a1..c044717  master -> master
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -4 --all --graph
+* commit c0447174255b3964590a3f3d748e2659255c9d66 (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:18:02 2023 +0530
+|
+|     Created the Palindrome.java file and used two ways one Basic and other Recursive
+|
+* commit 48168cda33007c3b6248445c410e16382b684b73
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 18:16:36 2023 +0530
+|
+|     Added the comment to find the number of digits by log base 10 + 1
+|
+* commit 9c1c2a17d584d853a8f1670e4c0e653258833fd4
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:07:45 2023 +0530
+|
+|     Added commands related to ReverseNumber, SumofDigit, Factorial
+|
+* commit cf5c1617b11eb2a33d306961ee540aebd720fdfa
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 2 17:04:44 2023 +0530
+|
+|     Using two approach Basic and Recursive one in Factorial.java file
 
 
