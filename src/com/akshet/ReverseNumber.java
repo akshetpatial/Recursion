@@ -16,6 +16,12 @@ public class ReverseNumber {
         System.out.println("The Reverse of the number "+num+" is: "+rNumber);
     }
 
+//    only one parameter should be passed then we pass as many parameters as we want by calling a new function
+    public static int ReversedNumberRecursiononeParameter(int num)
+    {
+        return ReversedNumberRecursion(num,0);
+    }
+
     public static int ReversedNumberRecursion(int num, int rNumber){
         if(num<=0)
             return rNumber;
@@ -37,6 +43,10 @@ public class ReverseNumber {
         ReversedNumber(num);
 
         System.out.println("Using Recursive Approach! ");
-        System.out.println("The Reverse of the number "+num+" is: "+ReversedNumberRecursion(num,0));
+
+       // System.out.println("The Reverse of the number "+num+" is: "+ReversedNumberRecursion(num,0));
+
+        // If its mentioned that only parameter should be passed then
+        System.out.println("The Reverse of the number "+num+" is: "+ReversedNumberRecursiononeParameter(num));
     }
 }
