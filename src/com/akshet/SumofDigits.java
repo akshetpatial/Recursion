@@ -2,6 +2,8 @@ package com.akshet;
 
 import java.util.Scanner;
 
+// Best way to find the Number of Digits is to use log10(Num) + 1 as log base 10 of a number + 1 gives
+// No of the digits
 public class SumofDigits {
 
     public static int sumRecursion(int num){
