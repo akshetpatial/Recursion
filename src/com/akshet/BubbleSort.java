@@ -24,11 +24,10 @@ public class BubbleSort {
 
     }
 
-    public static int[] swap(int[] array, int from, int to) {
+    public static void swap(int[] array, int from, int to) {
         int temp = array[from];
         array[from]=array[to];
         array[to]=temp;
-        return array;
     }
 
     public static void main(String[] args) {
