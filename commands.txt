@@ -849,4 +849,141 @@ remote: Resolving deltas: 100% (6/6), completed with 3 local objects.
 To https://github.com/akshetpatial/Recursion.git
    315657d..648f76a  master -> master
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Recursion/com/akshet/BubbleSort.class
+        modified:   src/com/akshet/BubbleSort.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Minor Changes"
+[master c5e98ff] Minor Changes
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+ rewrite out/production/Recursion/com/akshet/BubbleSort.class (75%)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (12/12), 1.44 KiB | 295.00 KiB/s, done.
+Total 12 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/akshetpatial/Recursion.git
+   bd389cb..c5e98ff  master -> master
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -5 --all --graph
+* commit c5e98ff224489816e629d2c57a2b50cf3c32e20f (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 00:30:30 2023 +0530
+|
+|     Minor Changes
+|
+* commit bd389cbeeecd98bbdde3700288598c2907b12987
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Tue Apr 4 12:21:08 2023 +0530
+|
+|     Created the Pattern.java file
+|
+* commit c4981c761cf4f88217db3fc09240cabe740d5eab
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Tue Apr 4 12:20:38 2023 +0530
+|
+|     Created the BubbbleSort.java file
+|
+* commit 7cbd7284645671b533714884bb93f1449eca0259
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Tue Apr 4 12:18:56 2023 +0530
+|
+|     did some minor changes
+|
+* commit 5ebffbd702d8b68f7e5272880941a0bba08e1064
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Mon Apr 3 02:19:28 2023 +0530
+|
+|     Added the commands related to SortedArray and LinearSearch
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/akshet/SelectionSort.class
+        src/com/akshet/SelectionSort.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created the Class SelectonSort.java"
+[master 92e2fbb] Created the Class SelectonSort.java
+ 2 files changed, 53 insertions(+)
+ create mode 100644 out/production/Recursion/com/akshet/SelectionSort.class
+ create mode 100644 src/com/akshet/SelectionSort.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (12/12), 2.43 KiB | 621.00 KiB/s, done.
+Total 12 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/akshetpatial/Recursion.git
+   c5e98ff..92e2fbb  master -> master
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -5 --all --graph
+* commit 92e2fbbde5b2aefe7cc124d899997f52f1f6b28c (HEAD -> master, origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 01:50:38 2023 +0530
+|
+|     Created the Class SelectonSort.java
+|
+* commit c5e98ff224489816e629d2c57a2b50cf3c32e20f
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 00:30:30 2023 +0530
+|
+|     Minor Changes
+|
+* commit bd389cbeeecd98bbdde3700288598c2907b12987
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Tue Apr 4 12:21:08 2023 +0530
+|
+|     Created the Pattern.java file
+|
+* commit c4981c761cf4f88217db3fc09240cabe740d5eab
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Tue Apr 4 12:20:38 2023 +0530
+|
+|     Created the BubbbleSort.java file
+|
+* commit 7cbd7284645671b533714884bb93f1449eca0259
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Tue Apr 4 12:18:56 2023 +0530
+|
+|     did some minor changes
 
