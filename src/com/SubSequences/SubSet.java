@@ -19,10 +19,15 @@ public class SubSet {
             {
                 // This is simple way of using constructor to make the copy of the outerList element present at index i
                 // to innerList
-                ArrayList<Integer>   integerList = new ArrayList<>(outerList.get(i));
+                ArrayList<Integer>   innerList = new ArrayList<>(outerList.get(i));
                // System.out.println(integerList);
-                integerList.add(num);
-                outerList.add(integerList);
+                innerList.add(num);
+
+                /*
+                 Modifying the code to make a check if innerList is already present
+                */
+                if(!outerList.contains(innerList))
+                    outerList.add(innerList);
                // System.out.println(outerList);
             }
         }
