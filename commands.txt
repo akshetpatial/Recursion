@@ -1079,3 +1079,69 @@ To https://github.com/akshetpatial/Recursion.git
    81d6271..87e76e3  master -> master
 
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/com/Permutation/
+
+nothing added to commit but untracked files present (use "git add" to track)
+g
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created the class permuteString.java"
+[master e4b3021] Created the class permuteString.java
+ 1 file changed, 22 insertions(+)
+ create mode 100644 src/com/Permutation/permuteString.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -5 --all --graph
+* commit e4b3021fba530f1416e15a89aff66ab53998342a (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 9 01:54:08 2023 +0530
+|
+|     Created the class permuteString.java
+|
+* commit bcd78fbdd716757f5c84d0796224c1cd21e05a6d (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sun Apr 9 01:30:42 2023 +0530
+|
+|     Added the removing duplicate from the ArrayList
+|
+* commit 306af44d0c1667c709ceae8bf13676b0d8314462
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Apr 8 23:58:15 2023 +0530
+|
+|     Added the commands related to SubSet.java
+|
+* commit 87e76e329edebab04a05cafb7dcd0642dd4ec755
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Apr 8 23:57:02 2023 +0530
+|
+|     created the SubSet.java class
+|
+* commit 81d627178034d2c6ae41b8d463fc7407f99c3a41
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Apr 8 19:53:17 2023 +0530
+|
+|     created the file SubSequence.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 779 bytes | 194.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/akshetpatial/Recursion.git
+   bcd78fb..e4b3021  master -> master
+
+
+
