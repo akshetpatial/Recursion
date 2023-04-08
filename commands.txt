@@ -987,3 +987,95 @@ $ git log -5 --all --graph
 |
 |     did some minor changes
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Recursion/com/SubSequences/SubSequence.class
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/SubSequences/SubSet.class
+        src/com/SubSequences/SubSet.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git git status
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   out/production/Recursion/com/SubSequences/SubSequence.class
+        new file:   out/production/Recursion/com/SubSequences/SubSet.class
+        new file:   src/com/SubSequences/SubSet.java
+
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "created the SubSet.java class"
+[master 87e76e3] created the SubSet.java class
+ 3 files changed, 50 insertions(+)
+ create mode 100644 out/production/Recursion/com/SubSequences/SubSet.class
+ create mode 100644 src/com/SubSequences/SubSet.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git log -5 --all --graph
+* commit 87e76e329edebab04a05cafb7dcd0642dd4ec755 (HEAD -> master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Apr 8 23:57:02 2023 +0530
+|
+|     created the SubSet.java class
+|
+* commit 81d627178034d2c6ae41b8d463fc7407f99c3a41 (origin/master)
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Apr 8 19:53:17 2023 +0530
+|
+|     created the file SubSequence.java
+|
+* commit 44091a3a05a77d1f7f4a010d5c16691d5fd00203
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Sat Apr 8 01:12:39 2023 +0530
+|
+|     Created the package com.SubSequences
+|
+* commit 341aee1acfd9da520b40c0618833ec8df97b2284
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 01:52:26 2023 +0530
+|
+|     Added commands related to BubbleSort and SelectionSort
+|
+* commit 92e2fbbde5b2aefe7cc124d899997f52f1f6b28c
+| Author: AKSHET PATIAL <akshet.patial@gmail.com>
+| Date:   Wed Apr 5 01:50:38 2023 +0530
+|
+|     Created the Class SelectonSort.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (13/13), 2.79 KiB | 408.00 KiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/akshetpatial/Recursion.git
+   81d6271..87e76e3  master -> master
+
+
