@@ -1144,4 +1144,41 @@ To https://github.com/akshetpatial/Recursion.git
    bcd78fb..e4b3021  master -> master
 
 
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   out/production/Recursion/com/Permutation/permuteString.class
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        out/production/Recursion/com/Permutation/LetterCombination.class
+        src/com/Permutation/LetterCombination.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git add .
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git commit -m "Created the class LetterCombination.java file"
+[master 0277985] Created the class LetterCombination.java file
+ 3 files changed, 111 insertions(+)
+ create mode 100644 out/production/Recursion/com/Permutation/LetterCombination.class
+ create mode 100644 src/com/Permutation/LetterCombination.java
+
+Lenovo@AKSHETISHEREDESKTOP MINGW64 /e/2023_project/Recursion (master)
+$ git push origin master
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (13/13), 4.50 KiB | 658.00 KiB/s, done.
+Total 13 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/akshetpatial/Recursion.git
+   7e47608..0277985  master -> master
+
 
