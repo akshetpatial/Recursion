@@ -6,7 +6,7 @@ public class LetterCombination {
  //   https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
 //  This Approach is not working Trying another approach
-//    Update 1. Checked others solutions and made some changes to this approach
+//    Update 1. Checked others solutions and made some changes to this approach and its working now
 
     public static List<String> CombinationAnother(String st) {
         List<String>  stringList = new ArrayList<>();
